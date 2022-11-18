@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aqua+: Saiba tudo sobre peixes</title>
+    <link rel="icon" type="image/png" href="imagens/icon.png"/>
+    <link rel="stylesheet" href="aquario.css">
+</head>
+<body>
+    <script src="aquario.js"></script>
+    <header>
+        <nav>
+            <a class="logo" href="aquario.html">Aqua+</a>
+            <div class="menu">
+            <div class="l1"></div>
+            <div class="l2"></div>
+            <div class="l3"></div>
+            </div>
+            <ul class="listas">
+            <li><a href="introducao.html">Introdução</a></li>
+            <li><a href="tipos.html">Espécies</a></li>
+            <li><a href="calculadora.html">Calculadora</a></li>
+            </ul>
+        </nav>
+        <hr>
+        <br><br>
+        <h2>Calculando o seu aquário</h2>
+        <div class="calculadora">
+        <div class="calcular">
+            <div class="input1">         
+            <input type="number" placeholder="Altura em cm" id="altura" class="input">
+        </div>  
+            <div class="input1">  
+            <input type="number" placeholder="Largura em cm" id="largura" class="input">
+        </div>  
+            <div class="input1">   
+            <input type="number" placeholder="Comprimento em cm" id="comprimento" class="input">
+        </div>  
+        <br>
+        <button class="btn btnc" type="button" onclick="calculadora()">CALCULAR</button>
+            <br><br><br><br>
+            <div class="tipo">
+            <div style="float: left">
+                <img src="imagens/g.png" width="50" height="50">
+            </div>
+            <p id="volume">0.00L<br>litros</p>
+            <div style="float: left">
+                <img src="imagens/b.png" width="45" height="50">
+            </div>
+            <p id="bomba">0.00L/h<br>bomba</p>
+            <div style="float: left">
+                <img src="imagens/t.png" width="50" height="50">
+            </div>
+            <p id="aquecedor">0.00W<br>aquecedor</p>
+
+                </div>
+            </div>
+        </header>
+</body>
+</html>
